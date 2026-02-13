@@ -1,0 +1,54 @@
+[transforms/escu_detection_mitre_map]
+access = read : [ * ], write : [ * ]
+export = system
+owner = nobody
+version = 9.4.7
+modtime = 1770449882.538216000
+
+[macros/mitre_auto_map%281%29]
+access = read : [ * ], write : [ * ]
+export = system
+owner = nobody
+version = 9.4.7
+modtime = 1770470708.939353000
+
+[lookups/escu_detection_selector.csv]
+access = read : [ * ], write : [ * ]
+export = system
+owner = nobody
+version = 9.4.7
+modtime = 1770471589.145219000
+
+[transforms/escu_detection_selector]
+access = read : [ * ], write : [ * ]
+export = system
+owner = nobody
+version = 9.4.7
+modtime = 1770471605.377869000
+
+[macros/behavior_classify]
+export = system
+owner = admin
+version = 9.4.7
+modtime = 1770571723.624337000
+
+[lookups/escu_detection_selector_v2.csv]
+access = read : [ * ], write : [ * ]
+export = system
+owner = nobody
+version = 9.4.7
+modtime = 1770575454.609310000
+
+[transforms/escu_detection_selector_v2]
+access = read : [ * ], write : [ * ]
+export = system
+owner = nobody
+version = 9.4.7
+modtime = 1770575472.550035000
+
+[macros/behavior_route]
+access = read : [ * ], write : [ * ]
+export = system
+owner = admin
+version = 9.4.7
+modtime = 1770734571.085057000

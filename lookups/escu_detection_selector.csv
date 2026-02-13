@@ -1,0 +1,13 @@
+behavior_class,execution_context,escu_detection
+credential_access,powershell,ESCU - Windows PowerShell Process With Malicious String - Rule
+credential_access,lsass_dump_native,ESCU - Dump LSASS via comsvcs DLL - Rule
+credential_access,lsass_dump_tool,ESCU - Dump LSASS via procdump - Rule
+persistence,scheduled_task,ESCU - Windows Scheduled Task Created Via XML - Rule
+persistence,registry_runkey,ESCU - Windows Registry Run Key Persistence - Rule
+discovery,command_line_tool,ESCU - Windows User Discovery Via Net - Rule
+discovery,command_line_tool,ESCU - Windows Group Discovery Via Net - Rule
+discovery,powershell,ESCU - Windows User Discovery Via Net - Rule
+defense_evasion,command_line_tool,ESCU - Windows Event Log Cleared - Rule
+execution,powershell,ESCU - Malicious PowerShell Process - Execution Policy Bypass - Rule
+lateral_movement,network_share,ESCU - Windows Network Share Interaction Via Net - Rule
+lateral_movement,command_line_tool,ESCU - Windows Network Share Interaction Via Net - Rule

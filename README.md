@@ -167,7 +167,7 @@ ESCU Detection → MITRE Technique → Tactic Enrichment → Dashboard
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/mitre-attack-auto-mapping.git
+git clone https://github.com/Deshmukhsuraj/mitre-attack-auto-mapping.git
 cd mitre-attack-auto-mapping
 
 # 2. Deploy the TA to Splunk

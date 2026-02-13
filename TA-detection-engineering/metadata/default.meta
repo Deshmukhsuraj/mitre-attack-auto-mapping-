@@ -1,0 +1,3 @@
+[lookups/escu_detection_mitre_map.csv]
+access = read : [ * ], write : [ admin ]
+export = system
